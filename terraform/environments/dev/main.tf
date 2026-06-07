@@ -33,6 +33,7 @@ module "karpenter" {
   cluster_endpoint = module.eks.cluster_endpoint
 
   oidc_provider_arn = module.eks.oidc_provider_arn
+  node_role_name    = "sre-platform-dev-eks-node-role"
 
   project     = var.project
   environment = var.environment
