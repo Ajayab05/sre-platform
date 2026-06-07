@@ -1,0 +1,7 @@
+cluster_endpoint = "https://5D936C6C4A8F8E6027616ACDA8C06BA2.gr7.us-east-1.eks.amazonaws.com"
+cluster_name = "sre-dev-eks"
+[33m╷[0m[0m
+[33m│[0m [0m[1m[33mWarning: [0m[0m[1mDeprecated Parameter[0m
+[33m│[0m [0m
+[33m│[0m [0m[0mThe parameter "dynamodb_table" is deprecated. Use parameter "use_lockfile" instead.
+[33m╵[0m[0m
